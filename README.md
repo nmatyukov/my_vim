@@ -2,13 +2,13 @@ My vim settings and plugins. <br />
 
 
 
-## Plugins: ## <br />
+## Plugins: <br />
 
 + Ack
 + NERDTree
 + AsyncShell
 
-## vundle: ## <br />
+## vundle: <br />
 
 + Bundle 'vundle'
 + Bundle 'Lokaltog/vim-easymotion'
@@ -20,7 +20,7 @@ My vim settings and plugins. <br />
 + Bundle 'mileszs/ack.vim'
 
 
-## GoogleTranslate script (F4): ## <br />
+## GoogleTranslate script (F4): <br />
 
 
 g_trans.py
