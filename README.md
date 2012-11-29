@@ -7,6 +7,7 @@ My vim settings and plugins. <br />
 + Ack
 + NERDTree
 + AsyncShell
++ PyClewn (gdb, pdb)
 
 ## Vundle: <br />
 
