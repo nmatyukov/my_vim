@@ -1,27 +1,26 @@
-My vim settings and plugins.
+My vim settings and plugins. <br />
 
 
-/*---------------*/
-Plugins:
 
-Ack
-NERDTree
-AsyncShell
+## Plugins: ## <br />
 
-/*---------------*/
++ Ack
++ NERDTree
++ AsyncShell
 
-vundle:
+## vundle: ## <br />
 
-Bundle 'vundle'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'scrooloose/nerdtree'
-Bundle 'kien/ctrlp.vim'
-Bundle 'msanders/snipmate.vim'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-fugitive'
-Bundle 'mileszs/ack.vim'
++ Bundle 'vundle'
++ Bundle 'Lokaltog/vim-easymotion'
++ Bundle 'scrooloose/nerdtree'
++ Bundle 'kien/ctrlp.vim'
++ Bundle 'msanders/snipmate.vim'
++ Bundle 'tpope/vim-rails'
++ Bundle 'tpope/vim-fugitive'
++ Bundle 'mileszs/ack.vim'
 
 
-/*---------------*/
+## GoogleTranslate script (F4): ## <br />
 
-GoogleTranslate script (F4): g_trans.py
+
+g_trans.py
