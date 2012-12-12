@@ -1,3 +1,6 @@
+" цветовая схема: измененный default
+colo default
+
 " по умолчанию - латинская раскладка
 set iminsert=0
 " по умолчанию - латинская раскладка при поиске
@@ -104,10 +107,17 @@ Bundle 'vundle'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'scrooloose/nerdtree' 
 Bundle 'kien/ctrlp.vim'
-Bundle 'msanders/snipmate.vim'
+" Bundle 'msanders/snipmate.vim'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/snipmate-snippets"
+
+Bundle "garbas/vim-snipmate"
+
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-fugitive'
 Bundle 'mileszs/ack.vim'
+Bundle 'lucapette/vim-ruby-doc'
 
 " NERDTree settings
 nmap \p :NERDTree<cr>
