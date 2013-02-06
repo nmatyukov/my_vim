@@ -20,13 +20,11 @@ My vim settings and plugins. <br />
 + Bundle "honza/snipmate-snippets"
 + Bundle "garbas/vim-snipmate"
 + Bundle "akitaonrails/snipmate-snippets"
-
 + Bundle 'msanders/snipmate.vim'
 + Bundle 'tpope/vim-rails'
 + Bundle 'tpope/vim-haml'
 + Bundle 'tpope/vim-fugitive'
 + Bundle 'mileszs/ack.vim'
-
 + Bundle 'lucapette/vim-ruby-doc'
 + Bundle 'mattn/zencoding-vim'
 + Bundle 'vim-scripts/taglist.vim'
