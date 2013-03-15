@@ -124,6 +124,7 @@ Bundle 'endel/vim-github-colorscheme'
 Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/DfrankUtil'
 Bundle 'jcf/vim-latex'
+Bundle 'kchmck/vim-coffee-script'
 " Bundle 'coot/atp_vim'
 
 " NERDTree settings
