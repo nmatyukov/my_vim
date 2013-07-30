@@ -16,22 +16,22 @@ set nu!
 set textwidth=70
 
 " минимальная высота окна пусть будет 0 (по умолчанию - 1)
-set winminheight=0
+" set winminheight=0
 
 " размеры окна
-if has("gui_running")
-  " GUI is running or is about to start.
-  " Maximize gvim window.
-  set lines=50 columns=170
-else
-  " This is console Vim.
-  if exists("+lines")
-    set lines=50
-  endif
-  if exists("+columns")
-    set columns=100
-  endif
-endif
+" if has("gui_running")
+"   " GUI is running or is about to start.
+"   " Maximize gvim window.
+"   set lines=50 columns=170
+" else
+"   " This is console Vim.
+"   if exists("+lines")
+"     set lines=50
+"   endif
+"   if exists("+columns")
+"     set columns=100
+"   endif
+" endif
 
 " всегда делать активное окно максимального размера
 "set noequalalways
@@ -189,3 +189,5 @@ syntax enable
 set background=light
 colo github 
 
+" hamlc == haml 
+au BufRead,BufNewFile *.hamlc set ft=haml
